@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Incrimetador LINKTOU</title>
+</head>
+
+<body>
+  <main class="conteudo-principal">
+    <div class="grafismo-azul"></div>
+    <section class="conteudo-incremento">
+      <h1 class="titulo">
+        Incrementador <span class="texto-azul">LinktoU</span>
+      </h1>
+
+      <form class="formulario">
+        <label class="campo-grupo">
+          <span class="texto-medio-azul">Contador</span>
+          <input id="contador" class="form__input" type="number" placeholder="0">
+        </label>
+
+        <section class="parte-inferior">
+          <section class="botoes-wrapper">
+            <button onclick="decrementar()" type="button" class="botao-form botao-adicionar">Decrementar</button>
+            <button onclick="limpar()" type="button" class="botao-form 
+            botao-limpar">Resetar</button>
+            <button onclick="incrimentar()" type="button" class="botao-form botao-adicionar">Incrementar</button>
+
+          </section>
+        </section>
+      </form>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
